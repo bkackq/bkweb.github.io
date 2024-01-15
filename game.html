@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>home</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		
+		}
+		body {
+			min-height: 100vh;
+			overflow-x: hidden;
+			background:
+				linear-gradient(#2b1055,#7597de);
+			
+		}
+		
+		header {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1000;
+			width: 100%;
+			padding: 30px 200px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		
+		header .logo {
+			font-size: 2em;
+			color: #fff;
+			letter-spacing: 2px;
+			font-weight: 700;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+		
+		header ul {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		
+		header ul li {
+			list-style: none;
+			margin-left: 20px;
+		}
+		
+		header ul li a {
+			text-decoration: none;
+			padding: 6px 15px;
+			color: #fff;
+			border-radius: 20px;
+		}
+		
+		header ul li a:hover,
+		header ul li a.active
+		{
+			background: #fff;
+			color: #2b1055;
+		}
+		
+	</style>
+	
+	</head>
+	<body>
+		<header>
+			<!-- 左logo -->
+			<a href="index.html" class="logo">Logo</a>
+			<!-- 右导航 -->
+			<ul>
+				<li><a href="home.html">首页</a></li>
+				<li><a href="download.html">下载</a></li>
+				<li><a href="#">论坛</a></li>
+				<li>
+					<a href="game.html" class="active">游戏</a>
+				</li>
+				<li><a href="integral.html">积分</a></li>
+				<li><a href="contact.html">联系我们</a></li>
+			</ul>
+		</header>
+		
+	</body>
+</html>
